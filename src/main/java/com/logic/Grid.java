@@ -29,4 +29,18 @@ public class Grid {
     public int getHeight() { return height; }
     public ArrayList<Box> getGridIndex( int _index ) { return boxes.get(_index); }
     public Box getBoxIndex(int _index1, int _index2) { return boxes.get(_index1).get(_index2); }
+
+    // METHODS
+    public ArrayList< ArrayList<Box> > calcNewGrid() {
+        ArrayList< ArrayList<Box> > box = new ArrayList<>();
+
+        for (int i=0; i<this.getWidth(); i++) {
+            for (int j=0; j<this.getHeight(); i++) {
+
+            }
+        }
+
+        return box;
+    }
+    public void updateGrid(ArrayList< ArrayList<Box> > _newGrid) {}
 }
